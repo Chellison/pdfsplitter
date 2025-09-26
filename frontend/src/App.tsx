@@ -238,14 +238,6 @@ export default function App() {
     <div className="min-h-screen bg-[#f3f3ef] text-neutral-900" onDragOver={(e) => e.preventDefault()} onDrop={onDrop} onPaste={onPaste}>
       {/* Header */}
       <header className="mx-auto max-w-5xl px-6 pt-8">
-        <div className="flex items-center gap-3">
-          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow-300 font-mono text-sm">SDL</div>
-          <div>
-            <div className="font-mono text-xl">Semantic Document Lab</div>
-            <div className="-mt-1 text-xs text-neutral-600 font-mono">Open source AI for documents.</div>
-          </div>
-        </div>
-
         <div className="mt-6 border-2 border-neutral-900 bg-white p-6 shadow-[6px_6px_0_0_#111]">
           <h1 className="mt-1 font-mono text-3xl">PDF Splitter & Merger</h1>
           <p className="mt-2 max-w-2xl font-mono text-sm text-neutral-700">Upload PDFs, define split ranges per file (e.g., <span className="bg-neutral-100 px-1">1-4,10,12-14</span>), reorder files, and generate a merged download. Drag to reorder. Paste or drop a PDF anywhere.</p>
@@ -320,7 +312,7 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="mx-auto max-w-5xl px-6 pb-10 text-center font-mono text-xs text-neutral-500">Built with ♥ by the SDL (Joe Barrow)</footer>
+      <footer className="mx-auto max-w-5xl px-6 pb-10 text-center font-mono text-xs text-neutral-500">Built with ♥ by the Joe Barrow</footer>
     </div>
   );
 }
